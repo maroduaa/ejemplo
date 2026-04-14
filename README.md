@@ -6,57 +6,58 @@ Autores:
 - Yanina Martínez  
 
 ## Estructura del proyecto
-proyecto_academico/
-│
-├── manage.py # Script principal para ejecutar comandos de Django
-├── README.md # Documentación del proyecto
-├── requirements.txt # Dependencias del proyecto
-│
-├── config/ # Configuración global del proyecto Django
-│ ├── init.py
-│ ├── settings.py # Configuraciones (BD, apps, seguridad, etc.)
-│ ├── urls.py # Rutas principales del sistema
-│ ├── asgi.py # Configuración para despliegue asíncrono
-│ └── wsgi.py # Configuración para servidores web
-│
-├── apps/ # Contiene las aplicaciones del sistema
-│ │
-│ ├── usuarios/ # Gestión de usuarios del sistema
-│ │ ├── models.py
-│ │ ├── views.py
-│ │ ├── urls.py
-│ │ ├── forms.py
-│ │ └── admin.py
-│ │
-│ ├── proyectos/
-│ │ ├── models.py
-│ │ ├── views.py
-│ │ ├── urls.py
-│ │ ├── forms.py
-│ │ └── admin.py
-│ │
-│ └── informes/
-│ ├── models.py
-│ ├── views.py
-│ ├── urls.py
-│ ├── forms.py
-│ └── admin.py
-│
-├── templates/
-│ ├── base.html
-│ ├── usuarios/
-│ ├── proyectos/
-│ └── informes/
-│
-├── static/
-│ ├── css/
-│ ├── js/
-│ └── img/
-│
-├── media/
-│
-└── database/
-└── (conexión definida en settings.py)
+## 📁 Estructura del proyecto
+
+    proyecto_academico/
+    │
+    ├── manage.py              # Script principal para ejecutar comandos de Django
+    ├── README.md              # Documentación del proyecto
+    ├── requirements.txt       # Dependencias del proyecto
+    │
+    ├── config/                # Configuración global del proyecto Django
+    │   ├── __init__.py
+    │   ├── settings.py        # Configuraciones (BD, apps, seguridad, etc.)
+    │   ├── urls.py            # Rutas principales del sistema
+    │   ├── asgi.py            # Configuración para despliegue asíncrono
+    │   └── wsgi.py            # Configuración para servidores web
+    │
+    ├── apps/
+    │   ├── usuarios/
+    │   │   ├── models.py
+    │   │   ├── views.py
+    │   │   ├── urls.py
+    │   │   ├── forms.py
+    │   │   └── admin.py
+    │   │
+    │   ├── proyectos/
+    │   │   ├── models.py
+    │   │   ├── views.py
+    │   │   ├── urls.py
+    │   │   ├── forms.py
+    │   │   └── admin.py
+    │   │
+    │   └── informes/
+    │       ├── models.py
+    │       ├── views.py
+    │       ├── urls.py
+    │       ├── forms.py
+    │       └── admin.py
+    │
+    ├── templates/
+    │   ├── base.html
+    │   ├── usuarios/
+    │   ├── proyectos/
+    │   └── informes/
+    │
+    ├── static/
+    │   ├── css/
+    │   ├── js/
+    │   └── img/
+    │
+    ├── media/
+    │
+    └── database/
+        └── (conexión definida en settings.py)
 
 ## Breve descripción del proyecto
 
