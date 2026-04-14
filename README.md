@@ -22,40 +22,40 @@ proyecto_academico/
 ├── apps/ # Contiene las aplicaciones del sistema
 │ │
 │ ├── usuarios/ # Gestión de usuarios del sistema
-│ │ ├── models.py # Modelo de usuario
-│ │ ├── views.py # Lógica de vistas
-│ │ ├── urls.py # Rutas de usuarios
-│ │ ├── forms.py # Formularios
-│ │ └── admin.py # Configuración en el admin de Django
-│ │
-│ ├── proyectos/ # Gestión de proyectos de extensión
-│ │ ├── models.py # Modelo de proyectos
+│ │ ├── models.py
 │ │ ├── views.py
 │ │ ├── urls.py
 │ │ ├── forms.py
 │ │ └── admin.py
 │ │
-│ └── informes/ # Gestión de informes académicos
+│ ├── proyectos/
+│ │ ├── models.py
+│ │ ├── views.py
+│ │ ├── urls.py
+│ │ ├── forms.py
+│ │ └── admin.py
+│ │
+│ └── informes/
 │ ├── models.py
 │ ├── views.py
 │ ├── urls.py
 │ ├── forms.py
 │ └── admin.py
 │
-├── templates/ # Plantillas HTML del sistema
-│ ├── base.html # Plantilla base
-│ ├── usuarios/ # Vistas de usuarios
-│ ├── proyectos/ # Vistas de proyectos
-│ └── informes/ # Vistas de informes
+├── templates/
+│ ├── base.html
+│ ├── usuarios/
+│ ├── proyectos/
+│ └── informes/
 │
-├── static/ # Archivos estáticos
-│ ├── css/ # Estilos
-│ ├── js/ # Scripts
-│ └── img/ # Imágenes
+├── static/
+│ ├── css/
+│ ├── js/
+│ └── img/
 │
-├── media/ # Archivos subidos por usuarios (si aplica)
+├── media/
 │
-└── database/ # Configuración relacionada a PostgreSQL
+└── database/
 └── (conexión definida en settings.py)
 
 ## Breve descripción del proyecto
